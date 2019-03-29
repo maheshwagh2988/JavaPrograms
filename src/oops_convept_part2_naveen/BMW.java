@@ -6,7 +6,9 @@ package oops_convept_part2_naveen;
 //Here we have access of all 3 method of Car_Inheritance_Concept class as well as BMW own has 2 method.
 //When we have same method in Parent as well as Child class then with same name or parameter/argument then 1st Preference is given to child method
 //this is called MethodOverriding
-public class BMW extends Car_Inheritance_Concept {  //Has- a- relationship 
+//Has-a-Relationship means Class to class Relationship
+//Has- a- relationship
+public class BMW extends Car_Inheritance_Concept {   
 	
 	public void start() //this is MethodOverriding Method 
 	{

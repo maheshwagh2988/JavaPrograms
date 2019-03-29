@@ -3,8 +3,7 @@ package oops_convept_part2_naveen;
 public   class HSBCBank implements USBank,BrazilBank{
 	
 	//here we are Achieving Multiple Inheritance 
-	// Is-a-Relationship
-		
+	//Is-a-Relationship  means Interface and Class Relationship
 	//If class implementing any Interface then its mandatory to define or Override all the method of Interface
 	//Overriding from USBank
 	public void credit(){
