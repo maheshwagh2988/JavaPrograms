@@ -30,6 +30,7 @@ public class ArraryListConcept {
 			ArrayList<Integer> ar1= new ArrayList<Integer>(); //this will only accept Integer Values in ArrayList Called as Wrapper Class
 			ar1.add(100);
 //			ar1.add("test");// Error Message:The method add(Integer)in the type ArrayList<Integer>is not applicable for the arguments (String)
+			ArrayList<String> ar2= new ArrayList<String>();
 		}
 		
 	}
