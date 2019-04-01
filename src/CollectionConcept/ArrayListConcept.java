@@ -13,7 +13,12 @@ public class ArrayListConcept {
 		//1 can contains duplicate values
 		//2 it maintain insertion order
 		//3 it is not synchronize
-		//4  allows you random acees to fetch any element it store values on basis on index
+		//4  allows you random access to fetch any element it store values on basis on index
+		//Arrays can store primitive data types as well as objects.	
+		//ArrayList cannot store the primitive data types it can only store the objects.
+		//ArrayList is of dynamic size. and Arrays are of the static type.	
+
+
 		
 		ArrayList ar = new ArrayList();
 		ar.add(10); // Index 0
