@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 //So, any structural modifications done on the actual collection goes unnoticed by these iterators.
 //some drawbacks. One of them is that it is not always guaranteed that you will get up-to-date data while iterating.
 //Because any modifications to collection after the iterator has been created is not updated in the iterator.
-//Iterator returned by ConcurrentHashMap is a fail-safe iterator.
+//Iterator returned by ConcurrentHashMap is a fail-safe iterator. it come after Jdk 1.6
 
 
 public class FailSafeIteratorExample {
