@@ -5,7 +5,7 @@ package Collection_Map_Interface_Concept;
 //Java LinkedHashMap is non synchronized.
 //Java LinkedHashMap maintains insertion order.
 //The initial default capacity of Java HashMap class is 16 with a load factor of 0.75.
-//test
+//
 public class LinkedHashMapConcept {
 		public static void main(String[] args) {
 		
