@@ -81,7 +81,10 @@ public class HashMapMethods {
 			Iterator<Entry<Integer, BookStore>> entries = map.entrySet().iterator();
 			while (entries.hasNext()) {
 				Entry<Integer, BookStore> entry = entries.next();
-			    System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+			    System.out.println("Key = " + entry.getKey() + ", \nValue = " + entry.getValue().toString());
+			   // BookStore b=entry.getValue();
+			    //System.out.println(b.getAuthor());//java SERLIZATION TO STORE VAULE ON LOCAL SYSTEM Use GEt SET method
+			    
 			}
 		   
 

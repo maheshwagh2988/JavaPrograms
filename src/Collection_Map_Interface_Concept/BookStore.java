@@ -13,5 +13,9 @@ public class BookStore {
 	this.quantity=quantity;
 				
 	}
+	//This will use for Generic Iterator to Print Value 
+	public String toString(){
+		return "\nId= "+id+"\nname= "+name+"\nauthor= "+author+"\npublisher= "+publisher+"\nquantity= "+quantity;
+	}
 
 }
