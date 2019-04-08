@@ -22,13 +22,14 @@ public class TreeSetConcept {
 		tr.add("MadKing");
 		tr.add("Rob");
 		tr.add("Arya");
+		tr.add("Khalisee");//Duplicate Values does not Accept 
 		tr.add("Khalisee");
 		//tr.add(null);  //Does not allow to store null here you will get NullPointerException
 		System.out.println("TreeList Display as per Ascending Order: "+tr);
 		
 		System.out.println("\n****Use of  toArray() method*******");
 		
-		
+		//Using toArray Method Store Array element into 
 		String arr[]= new String[5];
 		arr=tr.toArray(arr);
 		System.out.println("Using toArray() method  Store set Values in arr variable  and The arr[] is:"); 

@@ -12,7 +12,6 @@ public class HashSetConcept {
 	//o	HashSet class is non synchronized.
 	//o	HashSet doesn't maintain the insertion order. Here, elements are inserted on the basis of their hashcode.
 	//o	HashSet is the best approach for search operations.
-	//o	The initial default capacity of HashSet is 16, and the load factor is 0.75.
 	//A List Interface can contain duplicate elements whereas Set Interface contains unique elements only.
 	//Traverser Data using iterator HashSet doesn't maintain the insertion order please see the Iterator result it does not maintain order
 	//HashSet allows maximum one null element.
@@ -27,6 +26,7 @@ public class HashSetConcept {
 		hs.add("Roger");
 		hs.add("Hulk");
 		hs.add("Justin");
+		hs.add(null); //Allowes null values 
 		hs.add("Justin"); //Duplicate Values does not Accept 
 		System.out.println("HashSet Size is: "+hs.size()); //Size not display as Index Basis 
 		System.out.println(hs);

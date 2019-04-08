@@ -13,10 +13,21 @@ public class HashMapConcept {
 //Java HashMap class contains only unique keys.
 //Java HashMap class may have one null key and multiple null values.
 //Java HashMap class is non synchronized. it is not thread-Safe it occur Fast-Fail and throws ConcurrentModificatoinException
+//It is not-thread safe and can't be shared between many threads without proper synchronization code.	
 //Java HashMap class maintains no order.
-//The initial default capacity of Java HashMap class is 16 with a load factor of 0.75.
 //It Does not store value on the basis of Index
-//To overcome problem of Fast-Fail and throws ConcurrentModificatoinException we use HashTable and it is Fail-Safe iterators don’t throw any exceptions if the collection is modified while iterating over it.	
+//To overcome problem of Fast-Fail and throws ConcurrentModificatoinException we use HashTable and it is Fail-Safe iterators don’t throw any exceptions if the collection is modified while iterating over it.
+//HashMap is a new class introduced in JDK 1.2.	
+//HashMap is fast.		
+//We can make the HashMap as synchronized by calling this code
+//	Map m = Collections.synchronizedMap(hashMap);	
+//HashMap inherits AbstractMap class.	
+//HashMap can be sorted by Key or value whereas TreeMap can be sorted by Key.
+//If two objects do not produce an equal result by using the equals() method,
+//	then the hashcode() method will provide the different integer result for both the objects.
+
+	
+	
 	
 	
 	public static void main(String[] args) {
@@ -25,6 +36,8 @@ public class HashMapConcept {
 		hashmap.put(1, "Selenium");
 		hashmap.put(2, "Java");
 		hashmap.put(3, "PHP");
+		//
+		System.out.println(hashmap.hashCode());
 		System.out.println(hashmap);//Print all the values in map
 		System.out.println(hashmap.get(1));//Print the Value on the basis of Key
 		System.out.println(hashmap.get(4));//Print null because 4 key is not preset in the given HashMap
@@ -35,6 +48,7 @@ public class HashMapConcept {
 		hmap.put(3, "DotNet");
 		hmap.put(4, "RFT");
 		System.out.println(hmap);
+		
 		
 		//To Iterate Map we have to use entrySet() method 
 		for(Entry<Integer, String> m:hmap.entrySet()){

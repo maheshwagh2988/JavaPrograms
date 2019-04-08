@@ -6,9 +6,11 @@ import java.util.Map.Entry;
 //Java LinkedHashMap contains values based on the key.
 //Java LinkedHashMap contains unique elements.
 //Java LinkedHashMap may have one null key and multiple null values.
-//Java LinkedHashMap is non synchronized.
+//Java LinkedHashMap is non synchronized.It is not-thread safe and can't be shared between many threads without proper synchronization code.
 //Java LinkedHashMap maintains insertion order.
 //The initial default capacity of Java HashMap class is 16 with a load factor of 0.75.
+
+
 
 public class LinkedHashMapConcept {
 		public static void main(String[] args) {
@@ -44,6 +46,8 @@ public class LinkedHashMapConcept {
 			 }
 			
 			System.out.println("*************Using for Loop ******************");
+			
+			//Create LinkedHashMap Object and Passed to User define class
 			LinkedHashMap<Integer,BookStore> Lhm= new LinkedHashMap<Integer,BookStore>();
 			
 			//Create Object of BookStore Class
@@ -58,9 +62,11 @@ public class LinkedHashMapConcept {
 			  
 			  //Print Value using for Loop
 			    for(Entry<Integer, BookStore>  m:Lhm.entrySet()){
-			    	
+			    	//Store key 
 			    	int key=m.getKey();
+			    	//Store Value
 			    	BookStore Value=m.getValue();
+			    	//Print Key and Value 
 			    	System.out.println(key + " Book Information: ");
 			    	System.out.println(Value.id+" "+Value.name+" "+Value.author+" "+Value.publisher+" "+Value.quantity);
 			    	

@@ -53,12 +53,12 @@ public class ArrayListConcept {
 		System.out.println("************************");
 		
 		
-		//How to define user define ArrayList
+		//How to define user define class Employee into ArrayList
 		//Create Employee class object 
 		Employee e= new Employee("mahesh", 25, "QA");
 		Employee e1= new Employee("tom", 28, "Network");
 		Employee e2= new Employee("peter", 27, "IT");
-		//Create ArrayList
+		//Create ArrayList and Pass Employee class 
 		ArrayList<Employee> ar3 = new ArrayList<Employee>();
 		ar3.add(e);
 		ar3.add(e1);

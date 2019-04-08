@@ -9,6 +9,8 @@ import java.util.TreeMap;
 //Java TreeMap cannot have a null key but can have multiple null values.
 //Java TreeMap is non synchronized.
 //Java TreeMap maintains ascending order.
+//HashMap can be sorted by Key or value whereas TreeMap can be sorted by Key.
+
 
 public class TreeMapConcept {
 

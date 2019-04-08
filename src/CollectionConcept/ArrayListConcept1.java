@@ -32,6 +32,8 @@ public class ArrayListConcept1 {
 		ar1.add(20); // Index 4
 		ar1.add(10); // Index 5
 		ar1.add(40); // Index 6
+		//This is called Random access 
+		System.out.println(ar1.get(0));
 		
 		
 		ArrayList <Integer> ar2 = new ArrayList<Integer>();
