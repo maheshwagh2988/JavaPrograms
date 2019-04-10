@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12141" started-at="2019-04-09T12:57:55Z" finished-at="2019-04-09T12:58:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12141" started-at="2019-04-09T12:57:55Z" finished-at="2019-04-09T12:58:07Z">
+      <class name="SeleniumSingletoneConcept.PageTestClass_TestNg">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:SeleniumSingletoneConcept.PageTestClass_TestNg@3c756e4d]" name="setUp" is-config="true" duration-ms="1628" started-at="2019-04-09T18:27:55Z" finished-at="2019-04-09T18:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:SeleniumSingletoneConcept.PageTestClass_TestNg@3c756e4d]" name="test1" duration-ms="5499" started-at="2019-04-09T18:27:57Z" finished-at="2019-04-09T18:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumSingletoneConcept.PageTestClass_TestNg@3c756e4d]" name="tearDown" is-config="true" duration-ms="4990" started-at="2019-04-09T18:28:02Z" finished-at="2019-04-09T18:28:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumSingletoneConcept.PageTestClass_TestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
