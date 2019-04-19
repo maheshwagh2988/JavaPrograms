@@ -20,10 +20,10 @@ public class ConstructorConcept {
 	String name; //
 	int age;    //these are Global variable will Initialize with current/Local variable of Constructor use this keyword
 	
-	public ConstructorConcept(){
+	public ConstructorConcept(){ //zero Parametres called as defalut constructor 
 		System.out.println("Default Constructors");
 	}
-	public ConstructorConcept(String name,int age){
+	public ConstructorConcept(String name,int age){ //This is also called constructor Overload with different Parameter 
 		this.name=name; //this keyword used to Initialize Current Object  
 		this.age=age;  //Global variable will Initialize with Local variable of Constructor
 		System.out.println("Using this keyword name is: "+name);
