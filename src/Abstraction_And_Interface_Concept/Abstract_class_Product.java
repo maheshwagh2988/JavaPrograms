@@ -9,8 +9,6 @@ public abstract class Abstract_class_Product implements Concrete_class_with_inte
 	}
 
 
-
-	
 	
 
 }

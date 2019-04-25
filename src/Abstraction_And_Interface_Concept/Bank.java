@@ -25,6 +25,9 @@ package Abstraction_And_Interface_Concept;
 //Static members are allowed.
 //Abstract classes can extend other at most one abstract or concrete class and implement several interfaces.
 //Any class that does not implement all the abstract methods of it’s super class has to be an abstract class itself.
+//Abstract methods must be overridden in the sub classes and final methods are not at all eligible for overriding.
+//its not use make final method in abstraction 
+//Constructor can't be final  as it not overriding so no use to make final 	
 
 
 public abstract class Bank {

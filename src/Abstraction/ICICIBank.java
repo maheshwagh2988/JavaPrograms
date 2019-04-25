@@ -38,7 +38,9 @@ public class ICICIBank 	implements USABank,RBI {
 		
 	}
 	
-	//ICICBank class own method
+	//All above Method are @Override method from USABank & RBI Bank Interface
+	//ICICBank class own method 
+	//these feature are available only ICICI Bank class
 	public void MutulFund(){
 		System.out.println("ICICBank Class Own Method");
 		
