@@ -30,7 +30,8 @@ public class String_charAt_Method {
 		}
 		
 		String s = "BeginnersBook";
-		//negative index, method would throw exception
+		//negative index, method would throw exception 
+		//java.lang.StringIndexOutOfBoundsException:
 		char ch = s.charAt(13);
 		System.out.println(ch);
 		

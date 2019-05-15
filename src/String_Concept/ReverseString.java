@@ -11,13 +11,15 @@ public class ReverseString {
 		
 		//Using for Loop
 		int len= str.length();
+		System.out.println("Lenght of Given String is: "+len);
+		System.out.println("Befor Reverse String is :"+str);
 		String revr="";
 		
 		for(int i=len-1;i>=0;i--){
 		revr=revr+str.charAt(i);
 		
 		}
-		System.out.println(revr);
+		System.out.println("After Reverse String is: "+revr);
 
 	}
 
