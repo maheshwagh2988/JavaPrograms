@@ -9,7 +9,7 @@ public class ConstructorConcept {
 //It it class entity to define some class feature while creating Object in the form of Global variable 
 //The purpose of constructor is to initialize the object of a class
 //while the purpose of a method is to perform a task by executing java code.
-//Constructors cannot be abstract, final, static and synchronised while methods can be.
+//Constructors cannot be abstract, final, static and synchronized while methods can be.
 //Constructors do not have return types while methods do.
 //Constructors name should be same as class name
 //It look like a function but it not a function	

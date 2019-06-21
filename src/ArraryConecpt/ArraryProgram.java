@@ -5,7 +5,7 @@ public class ArraryProgram {
 	public static void main(String[] args) {
 		//Advantages
 		
-		//Array used to store Similer Data Type values in Arrary Variable
+		//Array used to store Smiler Data Type values in Array Variable
 		//Arrays are objects which store multiple variables of the same type. 
 		//It can hold primitive types as well as object references
 		//They can even hold the reference variables of other objects
@@ -14,8 +14,8 @@ public class ArraryProgram {
 		
 		
 		//Disadvantages
-		// Size is fixed  Static Arrary  To Overcome this we USE COLLECTION ArryList,HashTable this is Dynamic arrary
-		// It Store Simmler Data Types To Overcome this we USE OBJECT Arrary
+		// Size is fixed  Static Array  To Overcome this we USE COLLECTION ArryList,HashTable this is Dynamic arrary
+		// It Store Smiler Data Types To Overcome this we USE OBJECT Array
 		int i[]= new int[4];
 		 i[0]=10;
 		 i[1]=20;
@@ -25,14 +25,14 @@ public class ArraryProgram {
 		//Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
 		//System.out.println(i[4]);
 		
-		 //This will give you length of Arrary 
+		 //This will give you length of Array 
 		 System.out.println(i.length);
 		 //Print O th Position arry Value
 		 System.out.println(i[0]);
 		 for(int j=0;j<i.length;j++){
 			 System.out.println(i[j]);
 		 }
-		// It Store Simmler Data Types To Overcome this we USE OBJECT Arrary
+		// It Store Simmler Data Types To Overcome this we USE OBJECT Array
 		//Object Array used to store different data types Values like,String,Int,Double,Char,Boolean 
 		 
 		 Object ob[] = new Object[5];
