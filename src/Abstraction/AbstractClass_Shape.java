@@ -2,7 +2,7 @@ package Abstraction;
 
 public abstract class AbstractClass_Shape {
 	 
-//Can't  create Object of Abstract class \
+//Can't create Object of Abstract class
 //In a class if any method is abstract then that class should be abstract class
 //In Abstract class we can have non abstract  method too
 //It is also called Partital abstraction

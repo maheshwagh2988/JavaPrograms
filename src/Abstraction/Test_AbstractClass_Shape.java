@@ -1,6 +1,6 @@
 package Abstraction;
 
-//We can't create a Object of Abstract Class Shape class as this class is Abstract
+//We can't create a Object of "AbstractClass_Shape" class as this class is Abstract
 //But we can create reference Of Abstract class
 //Create Object of Test_AbstractClass_Shape class and create reference of Abstract class and pass it
 //with the help of this we can call all the method from Abstract class

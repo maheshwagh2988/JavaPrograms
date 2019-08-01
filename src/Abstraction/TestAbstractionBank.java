@@ -21,7 +21,7 @@ public class TestAbstractionBank {
 		//Static variable called by Interface name if it is in the class then called by class name
 		System.out.println("In USABank Interface Static Variable Value is :  "+USABank.min_bal);
 		
-		//Run time Polymorphisma 
+		//Run time Polymorphisam 
 		//IF we pass Obj reference variable to Interface then we call those method.
 		USABank us=new ICICIBank();
 		us.credit();
