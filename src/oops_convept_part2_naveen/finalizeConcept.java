@@ -2,7 +2,7 @@ package oops_convept_part2_naveen;
 
 public class finalizeConcept {
 //finalizeConcept used to perform cleanup memory processing like garbage collector 
-//	finalize is a method 	
+//finalize is a method 	
 //Just before the Garbage collection we have to use finalize method to perform cleanup memory processing of Object ()
 	
 	public void finalize(){

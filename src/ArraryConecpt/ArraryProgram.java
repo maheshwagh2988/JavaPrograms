@@ -14,7 +14,7 @@ public class ArraryProgram {
 		
 		
 		//Disadvantages
-		// Size is fixed  Static Array  To Overcome this we USE COLLECTION ArryList,HashTable this is Dynamic arrary
+		// Size is fixed  Static Array  To Overcome this we USE COLLECTION ArryList,HashTable this is Dynamic array
 		// It Store Smiler Data Types To Overcome this we USE OBJECT Array
 		int i[]= new int[4];
 		 i[0]=10;
