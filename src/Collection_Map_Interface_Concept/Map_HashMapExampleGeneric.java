@@ -27,6 +27,26 @@ public class Map_HashMapExampleGeneric {
 		map.put(2, "Two");
 		map.put(3, "Threee");
 		map.put(4, "Four");
+		
+		//To check use of equal method in HashMap
+	//----------------------------------------------------------------------------
+		HashMap<Integer, String> map2= new HashMap<Integer, String>();
+		map2.put(4, "Four");
+		
+		HashMap<Integer, String> map3= new HashMap<Integer, String>();
+		map3.put(4, "Mahesh");
+		
+		HashMap<Integer, String> map4= new HashMap<Integer, String>();
+		map4.put(4, "Mahesh");
+		
+		System.out.println("Value of map2 given key is -->"+map2.get(4).hashCode());
+		System.out.println("Value of map3 given key is -->"+map3.get(4).hashCode());
+		System.out.println("Value of map4 given key is -->"+map4.get(4).hashCode());
+		
+		//peopleMap.put(me, me.toString());
+        System.out.println("me and me2 same? " + map2.equals(map3));
+        System.out.println("me and me2 same? " + map3.equals(map4));
+        //----------------------------------------------------------------------------        
 	        
 	    System.out.println(map.entrySet());
 	    

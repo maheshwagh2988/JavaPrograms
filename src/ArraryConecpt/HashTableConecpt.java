@@ -18,7 +18,7 @@ public class HashTableConecpt {
 		
 		System.out.println(h);//print all element key and value its a collection 
 		
-		//using Set will print all the key element 
+		//Using Set will print all the key element 
 		Set<String> keys = h.keySet();
         for(String key: keys){
             System.out.println(key);

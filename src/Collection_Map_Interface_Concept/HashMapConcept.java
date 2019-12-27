@@ -20,11 +20,11 @@ public class HashMapConcept {
 //HashMap is a new class introduced in JDK 1.2.	
 //HashMap is fast.		
 //We can make the HashMap as synchronized by calling this code
-//	Map m = Collections.synchronizedMap(hashMap);	
+//Map m = Collections.synchronizedMap(hashMap);	
 //HashMap inherits AbstractMap class.	
 //HashMap can be sorted by Key or value whereas TreeMap can be sorted by Key.
 //If two objects do not produce an equal result by using the equals() method,
-//	then the hashcode() method will provide the different integer result for both the objects.
+//then the hashcode() method will provide the different integer result for both the objects.
 
 	
 	
